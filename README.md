@@ -49,6 +49,10 @@ All thanks to Tonic, the original author of Altis Life RPG and our scripters and
 + Tracer ammo = tazer ammo (Except for old tazer weapon - will stay tazer)
 + 'Bird-Down' weapons for cops to install into helicopters for bringing down other helicopters
 + Self adapting market system, including random events
+    + Market system will return to default price after some time (~15min)
+    + Market system can change prices of other resources if you sell/buy something (e.g. if you sell coal, copper price will increase)
+    + There are random events such as "China builds 'World China Tower'" => iron, glass, cement price will increase
+    - Note: It's not using the database => would have impact to performance + quite difficult
 + More drugs
 + Drugs can be consumed
 + Cops can choose jail time (5-60min)
