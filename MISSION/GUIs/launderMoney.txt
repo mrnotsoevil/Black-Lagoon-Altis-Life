@@ -1,0 +1,15 @@
+/* #Wibytu
+$[
+	1.063,
+	["launderMoney",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1100,"",[2,"<t align='center' size='1.2'>Geld waschen</t>",["11 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","19 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[2200,"",[2,"",["11 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","19 * GUI_GRID_W","15 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2400,"bClose",[2,"Schliessen",["11 * GUI_GRID_W + GUI_GRID_X","20 * GUI_GRID_H + GUI_GRID_Y","19 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2201,"",[2,"",["11.5 * GUI_GRID_W + GUI_GRID_X","14.5 * GUI_GRID_H + GUI_GRID_Y","18 * GUI_GRID_W","5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2202,"",[2,"",["13.5 * GUI_GRID_W + GUI_GRID_X","16.5 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[1,1,1,0.1],[-1,-1,-1,-1],"","-1"],[]],
+	[1400,"bMoney",[2,"",["13.5 * GUI_GRID_W + GUI_GRID_X","16.5 * GUI_GRID_H + GUI_GRID_Y","10.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1000,"",[2," $ ",["11 * GUI_GRID_W + GUI_GRID_X","16 * GUI_GRID_H + GUI_GRID_Y","2 * GUI_GRID_W","2 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","1.5"],[]],
+	[2401,"bLaunder",[2,"Waschen",["24.5 * GUI_GRID_W + GUI_GRID_X","16.5 * GUI_GRID_H + GUI_GRID_Y","4.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Geld waschen lassen","-1"],[]],
+	[1101,"",[2,"Geld von Drogenverkauf, etc. musst du zuerst waschen lassen,<br/>um es benutzen zu konnen.<br/><br/><br/><t color='#FF0000'>Der Geldwascher wird dir 25% abziehen!</t>",["11.5 * GUI_GRID_W + GUI_GRID_X","5.5 * GUI_GRID_H + GUI_GRID_Y","18 * GUI_GRID_W","8.5 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/

@@ -1,0 +1,23 @@
+/* #Nyjuve
+$[
+	1.063,
+	["newCopPInteraction",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1100,"",[2,"<t size='1.2' align='center'>Aktion ...</t>",["10 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","21 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[2200,"",[2,"",["10 * GUI_GRID_W + GUI_GRID_X","4 * GUI_GRID_H + GUI_GRID_Y","21 * GUI_GRID_W","13 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2400,"bClose",[2,"Schliessen",["10 * GUI_GRID_W + GUI_GRID_X","17 * GUI_GRID_H + GUI_GRID_Y","21 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1200,"picUnrestrain",[2,"#(argb,8,8,3)color(1,1,1,1)",["11 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1201,"picArrest",[2,"#(argb,8,8,3)color(1,1,1,1)",["16 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1202,"picTicket",[2,"#(argb,8,8,3)color(1,1,1,1)",["21 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1203,"picEscort",[2,"#(argb,8,8,3)color(1,1,1,1)",["11 * GUI_GRID_W + GUI_GRID_X","9 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1204,"picPutInCar",[2,"#(argb,8,8,3)color(1,1,1,1)",["16 * GUI_GRID_W + GUI_GRID_X","9 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1205,"picSearch",[2,"#(argb,8,8,3)color(1,1,1,1)",["11 * GUI_GRID_W + GUI_GRID_X","13 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[1206,"picShowLicenses",[2,"#(argb,8,8,3)color(1,1,1,1)",["16 * GUI_GRID_W + GUI_GRID_X","13 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[2401,"bUnrestrain",[2,"Unrestrain",["11 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2402,"bArrest",[2,"Arrest",["16 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2403,"bTicket",[2,"Ticket",["21 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2404,"bEscort",[2,"STOP",["11 * GUI_GRID_W + GUI_GRID_X","9 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[1,0,0,1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2405,"bPutInCar",[2,"PutInCar",["16 * GUI_GRID_W + GUI_GRID_X","9 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2406,"bSearch",[2,"Search",["11 * GUI_GRID_W + GUI_GRID_X","13 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2407,"bShowLicenses",[2,"ShowLicenses",["16 * GUI_GRID_W + GUI_GRID_X","13 * GUI_GRID_H + GUI_GRID_Y","4 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/

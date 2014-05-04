@@ -1,0 +1,17 @@
+/* #Qecacy
+$[
+	1.063,
+	["houseDialog",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1100,"",[2,"<t align='center' size='1.2'>Haus</t>",["2 * GUI_GRID_W + GUI_GRID_X","1 * GUI_GRID_H + GUI_GRID_Y","36 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[2200,"",[2,"",["2 * GUI_GRID_W + GUI_GRID_X","2 * GUI_GRID_H + GUI_GRID_Y","36 * GUI_GRID_W","21 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2400,"bClose",[2,"Schliessen",["2 * GUI_GRID_W + GUI_GRID_X","23 * GUI_GRID_H + GUI_GRID_Y","36 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2202,"",[2,"",["2.5 * GUI_GRID_W + GUI_GRID_X","2.5 * GUI_GRID_H + GUI_GRID_Y","17 * GUI_GRID_W","13 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2203,"",[2,"",["2.5 * GUI_GRID_W + GUI_GRID_X","16 * GUI_GRID_H + GUI_GRID_Y","17 * GUI_GRID_W","6.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[1101,"",[2,"<t size='1.1'>Willkommen bei der Altis Wohngesellschaft!<br/></br>Leben Sie nicht mehr in der Gosse, sondern kaufen Sie sich dieses wunderschÃ¶ne Haus in toller Lage!<br/><br/><br/><br/>Folgende Vorteile bekommen Sie:<br/> <t color='#00dd00'><br/>* Respawnen Sie in ihrem Haus!<br/>* Lagern Sie Ihre GegenstÃ¤nde!<br/>* Parken Sie Ihr Auto ein und aus<br/>* Legen Sie sich schlafen und heilen sich</t></t> ",["20.5 * GUI_GRID_W + GUI_GRID_X","2.5 * GUI_GRID_H + GUI_GRID_Y","17 * GUI_GRID_W","20 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.5],[-1,-1,-1,-1],"","-1"],[]],
+	[1102,"house_value",[2,"<t size='2' align='center'>Wert: $xxxxxxxx</t>",["3 * GUI_GRID_W + GUI_GRID_X","16.5 * GUI_GRID_H + GUI_GRID_Y","16 * GUI_GRID_W","4 * GUI_GRID_H"],[-1,-1,-1,-1],[1,1,1,0],[-1,-1,-1,-1],"","-1"],[]],
+	[2401,"bBuyHouse",[2,"Kaufen",["3 * GUI_GRID_W + GUI_GRID_X","21 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2402,"bSellHouse",[2,"Verkaufen",["11.5 * GUI_GRID_W + GUI_GRID_X","21 * GUI_GRID_H + GUI_GRID_Y","7.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2403,"bVehiclePark",[2,"Fahrzeug parken",["3 * GUI_GRID_W + GUI_GRID_X","3 * GUI_GRID_H + GUI_GRID_Y","16 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzeug in der NÃ¤he einparken.","-1"],[]],
+	[2404,"bVehicleOpenGarage",[2,"Fahrzeug ausparken",["3 * GUI_GRID_W + GUI_GRID_X","4.5 * GUI_GRID_H + GUI_GRID_Y","16 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Garage Ã¶ffnen und Fahrzeug ausparken.","-1"],[]]
+]
+*/

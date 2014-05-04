@@ -1,0 +1,17 @@
+/* #Fobexu
+$[
+	1.063,
+	["vMenu",[[0,0,1,1],0.025,0.04,"GUI_GRID"],0,0,0],
+	[1100,"",[2,"<t align='center' size='1.1'>Fahrzeug</t>",["12.5 * GUI_GRID_W + GUI_GRID_X","5 * GUI_GRID_H + GUI_GRID_Y","16.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.7],[-1,-1,-1,-1],"","-1"],[]],
+	[2200,"",[2,"",["12.5 * GUI_GRID_W + GUI_GRID_X","6.5 * GUI_GRID_H + GUI_GRID_Y","16.5 * GUI_GRID_W","12.5 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2400,"",[2,"SchlieÃŸen",["12.5 * GUI_GRID_W + GUI_GRID_X","19.5 * GUI_GRID_H + GUI_GRID_Y","16.5 * GUI_GRID_W","1 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"","-1"],[]],
+	[2401,"bLockUnlock",[2,"Auf/Zu",["13 * GUI_GRID_W + GUI_GRID_X","7 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzeug aufschlieÃŸen oder zuschlieÃŸen","-1"],[]],
+	[2402,"bRepair",[2,"Reparieren",["17 * GUI_GRID_W + GUI_GRID_X","7 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzeug reparieren (BenÃ¶tigt Repairkit)","-1"],[]],
+	[2403,"bToGarage",[2,"Abschleppen",["21 * GUI_GRID_W + GUI_GRID_X","7 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzeug abschleppen lassen","-1"],[]],
+	[2404,"bRegister",[2,"Untersuchen",["13 * GUI_GRID_W + GUI_GRID_X","15.5 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Daten des Fahrzeugs anzeigen","-1"],[]],
+	[2405,"bSearch",[2,"Durchsuchen",["17 * GUI_GRID_W + GUI_GRID_X","15.5 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzug nach illegelen GegenstÃ¤nden durchsuchen","-1"],[]],
+	[2406,"bPullout",[2,"Herausziehen",["21 * GUI_GRID_W + GUI_GRID_X","15.5 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Insassen herausziehen","-1"],[]],
+	[2407,"bImpound",[2,"Beschlagnahmen",["25 * GUI_GRID_W + GUI_GRID_X","15.5 * GUI_GRID_H + GUI_GRID_Y","3.5 * GUI_GRID_W","3 * GUI_GRID_H"],[-1,-1,-1,-1],[-1,-1,-1,-1],[-1,-1,-1,-1],"Fahrzeug beschlagnahmen","-1"],[]],
+	[2201,"",[2,"",["13 * GUI_GRID_W + GUI_GRID_X","15 * GUI_GRID_H + GUI_GRID_Y","15.5 * GUI_GRID_W","0.25 * GUI_GRID_H"],[-1,-1,-1,-1],[0,0,0,0.9],[-1,-1,-1,-1],"","-1"],[]]
+]
+*/

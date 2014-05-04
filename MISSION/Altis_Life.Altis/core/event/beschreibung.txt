@@ -1,0 +1,22 @@
+3 Trigger:
+
+1: 2min Cap = 200Punkte        30sec cd
+2: 4min Cap = 400punkte        60sec cd
+3: 6min Cap = 600Punkte        90sec cd
+
+An jedem Trigger steht ein npc der ein quest item verkauft <--
+Es werden also 3 Npc und somit 3 Gegenstände gebraucht <--
+
+GEG ok<<
+
+Es wird nur mit Tazer geschossen! An jedem Trigger wird ein npc mit einer tazerwaffe(shop) benötigt, dieser muss die waffe(+magazine) ohne lizens verkaufen können und nur für 1 $
+
+TAZ ok<<
+SHOP ok <<
+LIC df= event-LIC
+
+Wer getazerd wird verliert 150Punkte <<ok
+Polizisten dürfen nur außerhalb des Triggers schießen und nur im verhältnis 2:3 vorhanden sein. >>shifted out
+Tazern können polizisten gegen Civ und die Civ gegen Civ << ok
+
+Der nach 30-45min am meisten Punkte und alle 3 Items besitzt hatt gewonnen >>shifted out

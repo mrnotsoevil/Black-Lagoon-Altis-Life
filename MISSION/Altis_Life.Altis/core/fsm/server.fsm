@@ -1,0 +1,101 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, Life Client FSM">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Main_Init",0,250,-40.348839,-141.279068,49.651161,-91.279068,0.000000,"Main Init"};
+item1[] = {"true",8,218,-39.994308,-65.712906,50.005692,-15.712896,0.000000,"true"};
+item2[] = {"Split",2,250,-39.994308,10.874098,50.005707,60.874100,0.000000,"Split"};
+item3[] = {"",7,210,-233.614594,295.445374,-225.614578,303.445374,0.000000,""};
+item4[] = {"",7,210,-233.935593,31.234837,-225.935593,39.234840,0.000000,""};
+item5[] = {"Time_Check",4,4314,-38.539185,92.835747,51.460873,142.835785,0.000000,"Time Check"};
+item6[] = {"Action",2,250,-36.888039,178.612518,53.111916,228.612396,0.000000,"Action"};
+item7[] = {"true",8,218,-36.716774,275.104858,53.283058,325.104889,0.000000,"true"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,5};
+link3[] = {3,4};
+link4[] = {4,2};
+link5[] = {5,6};
+link6[] = {6,7};
+link7[] = {7,3};
+globals[] = {0.000000,0,0,0,0,640,480,1,26,6316128,1,-456.200378,358.065338,379.837494,-151.171021,769,854,1};
+window[] = {2,-1,-1,-1,-1,1026,208,1500,208,3,787};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "Life Client FSM";
+  class States
+  {
+    /*%FSM<STATE "Main_Init">*/
+    class Main_Init
+    {
+      name = "Main_Init";
+      init = /*%FSM<STATEINIT""">*/"private[""_lasttime""];" \n
+       "_lasttime = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Split";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Split">*/
+    class Split
+    {
+      name = "Split";
+      init = /*%FSM<STATEINIT""">*/"diag_log ""Server FSM timer"";"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Time_Check">*/
+        class Time_Check
+        {
+          priority = 0.000000;
+          to="Action";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(time - _lasttime) > (15 * 60)"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Action">*/
+    class Action
+    {
+      name = "Action";
+      init = /*%FSM<STATEINIT""">*/"//Market stuff" \n
+       "[] spawn life_fnc_marketChange;" \n
+       "" \n
+       "_lasttime = time;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Split";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Main_Init";
+  finalStates[] =
+  {
+  };
+};
+/*%FSM</COMPILE>*/
