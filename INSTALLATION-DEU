@@ -19,6 +19,8 @@ Angenommen: Nitrado
     
 	Möglichkeit: Den ganzen Text in jeder Datei einfach kopieren, einfügen, ausführen
 	
+	Hinweis: Wenn du eine Datenbank benutzt, in der bereits Altis Life installiert war (haben die Routinen deleteDeadVehicles() und resetLifeVehicles()), dann brauchst du die main_altis_routines.sql-Datei nicht einspielen!
+	
     1.3 Häuser resetten 
     
 	SQL-Befehl ausführen:
