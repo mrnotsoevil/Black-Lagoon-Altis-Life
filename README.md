@@ -1,8 +1,11 @@
 ========================================
 Altis Life RPG
-Version 3.1.2+ 'Black Lagoon'
+Version 3.1.2
 By Tonic
 ========================================
+
+Because Tonic prohibits renaming his mod, it's still called "Altis Life RPG", BUT it SHOULD be called "Black Lagoon Altis Life RPG" :( 
+Not everybody is evil, Tonic!
 
 1. Introduction
 
