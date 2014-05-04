@@ -30,9 +30,11 @@ USE `main_altis`;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`main_altis`@`localhost` PROCEDURE `deleteDeadVehicles`()
-BEGIN
-	DELETE FROM `vehicles` WHERE `alive` = 0;
+CREATE PROCEDURE `deleteDeadVehicles`()
+BEGIN
+
+	DELETE FROM `vehicles` WHERE `alive` = 0;
+
 END ;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -49,9 +51,11 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `resetLifeVehicles`()
-BEGIN
-	UPDATE vehicles SET `active`= 0;
+CREATE PROCEDURE `resetLifeVehicles`()
+BEGIN
+
+	UPDATE vehicles SET `active`= 0;
+
 END ;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
