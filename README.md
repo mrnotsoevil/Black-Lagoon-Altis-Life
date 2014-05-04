@@ -84,3 +84,18 @@ The 'homes' table is pulled from our active running server, so you have to run f
     UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"'
 
 Disable safety features if necessary!
+
+
+--- DYNPERMS ---
+
+DynPerms is an extension to Perms (Group Manager), allowing to add dynamically created groups by using the database (Normal perms are in the script).
+
+Schema:
+
+    permid:		Id of the perm (eg. 'user_bloodz')
+    permname:		Human readable name of the perm (eg. 'The BloodZ')
+    maxrank:		Maximal rank (eg. '7')
+    ruleconfig:		Configuration of rules by rank (see permconfiguration.sqf for schema) (eg. '"[[0,[]],[1,["VIEW"]],[2,["VIEW"]],[3,["VIEW"]],[4,["VIEW"]],[5,["VIEW"]],[6,["LEADER","RANKUP","RANKDOWN","VIEW"]],[7,["LEADER","RANKUP","RANKDOWN","VIEW"]]]"')
+    member_conditions:	See permconfiguration.sqf
+    logo:		eg. 'images\logo_user\bloodz.paa'
+    levelnames:		Name for EACH LEVEL (including ZERO!!!) eg. '"["Kein Mitglied","Blood-Praktikant","Blood-Grünschnabel","Blood-Dealer","Blood-Hitman","Blood-Rechte Hand","Blood-CoLeader","Blood-Leader"]"'
