@@ -1,0 +1,42 @@
+Wie man den Server installiert
+
+Angenommen: Nitrado
+
+1. Datenbanken clearen, falls noch nicht geschehen:
+
+    Alle Tabellen in der Datenbank des Servers löschen (mit PHPMyAdmin oder MySQL Workbench, ...)
+    
+2. SQL-Dateien einspielen
+
+    1.1 Zuerst den Datenbanknamen in ALLEN Sql-Dateien ÜBERALL abändern:
+    
+	main_altis
+	
+	z.B. main_altis ersetzten durch ni123456
+	
+	
+    1.2 SQL-Dateien ausführen
+    
+	Möglichkeit: Den ganzen Text in jeder Datei einfach kopieren, einfügen, ausführen
+	
+    1.3 Häuser resetten 
+    
+	SQL-Befehl ausführen:
+    
+	UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"'
+	
+	
+	Hinweis: Eventuell meckern da ein paar Programme, da die für UPDATE-Aktionen eine ID brauchen. Bitte recherchieren oder von Hand machen :)
+	
+3. PBOs einspielen
+
+    Alls von hier aus wie gehabt:
+    
+    In dem MISSION-Ordner ist Altis_Life.Altis. In mpmissions reinkopieren oder in eine PBO packen (GUIs-Ordner nur für Scripter eventuell wichtig)
+    
+    Im ADDON-Ordner im life_server-Ordner die Init.sqf-Datei anpassen (siehe https://wiki.nitrado.net/de/Altis_Life) und dann in eine PBO packen. Die PBO-Datei kommt in den @life_server/addons Ordner (auch das ist im Wiki beschrieben)
+    
+    
+Keine Garantie für Bugfreiheit! Besucht uns doch einmal auf Black Lagoon, solange es den Server noch gibt.
+	
+	
