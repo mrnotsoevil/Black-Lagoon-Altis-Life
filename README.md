@@ -99,3 +99,8 @@ Schema:
     member_conditions:	See permconfiguration.sqf
     logo:		eg. 'images\logo_user\bloodz.paa'
     levelnames:		Name for EACH LEVEL (including ZERO!!!) eg. '"["Kein Mitglied","Blood-Praktikant","Blood-Grünschnabel","Blood-Dealer","Blood-Hitman","Blood-Rechte Hand","Blood-CoLeader","Blood-Leader"]"'
+
+--- GUIs Folder ---
+
+This folder is NOT important for the server. There are just files, created by the ARMA III GUI Editor. You may load them if you want to change a dialog.
+See documentation of GUI Editor for more information.
