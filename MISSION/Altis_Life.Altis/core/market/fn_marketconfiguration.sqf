@@ -13,7 +13,7 @@ life_market_resources = [
 	//["gold", 1500, 450, 2300, 8, 5],
 	["goldr", 2700, 0, 4050, 5, 3, 
 		[ 
-			["diamondc",1], 
+			["diamondc",1], //If you sell 1x goldr, the market system will "buy" 1x diamondc => diamondc price will increase
 			["oilp",1],
 			["iron_r",1],
 			["copper_r",1],
