@@ -16,7 +16,7 @@ life_vehicle_colors_new =
 	["C_Offroad_01_F",[]		, "Blau",["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa"], 1],
 	["C_Offroad_01_F",[]		, "Dunkelrot",["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa"], 1],
 	["C_Offroad_01_F",[]		, "Blau-Weiss",["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa"], 1],
-	["C_Offroad_01_F",["cop"]	, "Polizei",["vehskins\police_offroad.paa"], 2],
+	["C_Offroad_01_F",["cop"]	, "Polizei",["vehskins\Polizei_offroad_test.paa"], 2],
 	["C_Offroad_01_F",[]		, "Taxi",["#(argb,8,8,3)color(0.6,0.3,0.01,1)"], 1],
 	["C_Offroad_01_F",["donator"], "Unicorn",["vehskins\ziv_offroad.paa"], 3],
 	["C_Offroad_01_F",["donator"], "Gay",["vehskins\ziv_offroad_Gay.paa"], 3],
@@ -36,14 +36,15 @@ life_vehicle_colors_new =
 	
 	//C_Hatchback_01_sport_F
 	//////////////////////////////////////////////////////
-	["C_Hatchback_01_F",[]		, "Beige",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Gruen",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Blau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Dunkelblau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Gelb",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Weiss",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"], 5],
-	["C_Hatchback_01_F",[]		, "Grau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"], 5],
-	["C_Hatchback_01_F",["cop"]	, "Polizei",["vehskins\police_hatchback.paa"], 6],
+	["C_Hatchback_01_sport_F",[]		, "Beige",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base01_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Gruen",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base02_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Blau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base03_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Dunkelblau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base04_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Gelb",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base06_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Weiss",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa"], 5],
+	["C_Hatchback_01_sport_F",[]		, "Grau",["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa"], 5],
+	["C_Hatchback_01_sport_F",["cop"]	, "Polizei",["vehskins\police_hatchback.paa"], 6],
+	["C_Hatchback_01_sport_F",[]	    , "Sport_ken",["vehskins\hatchback_sport_ken_block.paa"], 6],
 	
 	//C_SUV_01_F
 	//////////////////////////////////////////////////////
@@ -51,7 +52,7 @@ life_vehicle_colors_new =
 	["C_SUV_01_F",[]		,"Silber",["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa"], 5],
 	["C_SUV_01_F",[]		,"Organge",["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa"], 5],
 	["C_SUV_01_F",["cop"]	,"Polizei",["vehskins\police_suv.paa"], 6],
-	["C_SUV_01_F",[]	,"Carbon",["vehskins\carbon_full_suv_v1.paa"], 10],
+	["C_SUV_01_F",[]	,"Carbon_Full",["vehskins\carbon_full_suv_v1.paa"], 10],
 	["C_SUV_01_F",[]	,"Fire",["vehskins\Fire_hatchback.paa"], 10],
 	["C_SUV_01_F",["cop"]	,"Blut",["vehskins\Blut_police_suv.paa"], 7],
 	["C_SUV_01_F",[]	,"Carbon_Weiß",["vehskins\carbon_suv_V3.paa"], 10],
@@ -65,6 +66,7 @@ life_vehicle_colors_new =
 	//////////////////////////////////////////////////////
 	["C_Van_01_transport_F",[]		,"Weiss",["\a3\soft_f_gamma\Van_01\Data\van_01_ext_co.paa"], 1],
 	["C_Van_01_transport_F",[]		,"Rot",["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa"], 1],
+	["C_Van_01_transport_F",[]		,"Grün",["\a3\soft_f_gamma\Van_01\Data\Van_gruen.paa"], 1],
 	
 	//C_Van_01_fuel_F
 	//////////////////////////////////////////////////////
@@ -124,7 +126,7 @@ life_vehicle_colors_new =
 	//////////////////////////////////////////////////////
 	["B_MRAP_01_hmg_F",["cop"]					,"SEK",["vehskins\sek_hunter_01.paa","vehskins\sek_hunter_02.paa"], 16],
 	["B_MRAP_01_hmg_F",["cop"]					,"Polizei",["vehskins\police_hunter.paa"], 16],
-	["B_MRAP_01_hmg_F",["cop"]					,"Blau-Weiss",["vehskins\police_hunter_blau_weis.paa"], 16],
+	["B_MRAP_01_hmg_F",["cop"]					,"Blau-Weiss",["vehskins\police_hunter_blau_weis_Bugfixed.paa"], 16],
 	
 	//I_Truck_02_covered_F
 	//////////////////////////////////////////////////////
