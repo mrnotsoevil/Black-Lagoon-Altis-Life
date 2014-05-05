@@ -58,6 +58,11 @@ All thanks to Tonic, the original author of Altis Life RPG and our scripters and
 + Cops can choose jail time (5-60min)
 + New admin menu (Including auth dialog for RCON password)
 + Included many new sounds
++ 'Bird Down MKI/MKII' helicopter weapons
+    * Buy the weapon and ammo
+    * Put it into the trunk
+    * Scroll with mouse wheel and choose weapon
+    * MKI => Fuel of target will be 5%, MKII => Target will be destroyed
 + ...
 
 4. Code changes
