@@ -2,6 +2,9 @@ Wie man den Server installiert
 
 Angenommen: Nitrado
 
+*** WICHTIGER HINWEIS: DAS IST NUR EINE ANLEITUNG, WIE MAN DIE SERVERFILES VON UNS EINSPIELT - DER REST IST WIE BEIM NORMALEN ALTIS LIFE - SIEHE DAZU DAS WIKI: https://wiki.nitrado.net/de/Altis_Life ***
+*** Bitte nicht nur fragen, sondern auch selber nachdenken! Ein guter Altis Life Server ist 'nicht einfach mal so' gemacht ***
+
 1. Datenbanken clearen, falls noch nicht geschehen:
 
     Alle Tabellen in der Datenbank des Servers löschen (mit PHPMyAdmin oder MySQL Workbench, ...)
