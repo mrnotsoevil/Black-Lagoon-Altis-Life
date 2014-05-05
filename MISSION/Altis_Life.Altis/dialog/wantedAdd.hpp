@@ -72,6 +72,7 @@ class life_wanted_add {
 			y = 8 * GUI_GRID_H + GUI_GRID_Y;
 			w = 19 * GUI_GRID_W;
 			h = 3.5 * GUI_GRID_H;
+			text = "Verbrechen";
 		};
 		class wantedBounty: Life_RscEdit
 		{
@@ -80,6 +81,7 @@ class life_wanted_add {
 			y = 13 * GUI_GRID_H + GUI_GRID_Y;
 			w = 14.5 * GUI_GRID_W;
 			h = 1 * GUI_GRID_H;
+			text = "500";
 		};
 		class bAdd: RscButtonMenu
 		{

@@ -156,5 +156,3 @@ if((getPlayerUID player) != (_session select 0)) exitWith {[] spawn life_fnc_ses
 cutText["Erhalte Informationen von Server und prüfe sie, du bist fast fertig.","BLACK FADED"];
 0 cutFadeOut 9999999;
 life_session_completed = true;
-
-systemChat "Altis Life 3.1.2 Black Lagoon";

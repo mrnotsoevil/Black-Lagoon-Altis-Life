@@ -1,6 +1,6 @@
 author = "TAW_Tonic";
-onLoadName = "Altis Life RPG";
-onLoadMission = "Altis Life RPG";
+onLoadName = "Black Lagoon Altis Life";
+onLoadMission = "Black Lagoon Altis Life";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 10;

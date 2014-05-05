@@ -77,6 +77,8 @@ if(!((player distance (getMarkerPos "police_hq_1") < 30) OR
   (player distance (getMarkerPos "police_hq_4") < 30) OR 
   (player distance (getMarkerPos "police_hq_5") < 30) OR 
   (player distance (getMarkerPos "police_hq_6") < 30) OR 
+  (player distance (getMarkerPos "police_hq_8") < 30) OR 
+  (player distance (getMarkerPos "police_hq_9") < 30) OR 
   (player distance (getMarkerPos "police_hq_7") < 30) )) then 
 {
 	_bArrest ctrlEnable false;
