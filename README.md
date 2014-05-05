@@ -14,7 +14,7 @@ Check following link for a basic description by the original author: http://foru
 
 2. Acknowledge
 
-All thanks to Tonic, the original author of Altis Life RPG and our scripters and contributors, map makers Monstaub, Patricksday, Sysco, DrFootjobber, mrboese and many other people who worked hard to make a good and feature rich server.
+All thanks to Tonic, the original author of Altis Life RPG and our scripters and contributors, map makers Monstaub, Patricksday, Sysco, DrFootjobber, VauxhallHH, Padde, Brain, mrboese and many other people who worked hard to make a good and feature rich server.
 
 3. Features
 
@@ -104,3 +104,11 @@ Schema:
 
 This folder is NOT important for the server. There are just files, created by the ARMA III GUI Editor. You may load them if you want to change a dialog.
 See documentation of GUI Editor for more information.
+
+--- Bugs/Incomplete Features ---
+
+To implement by yourself:
+* Admin menu (Incomplete)
+* Wanted 'Add' function (not working properly)
+* More houses (Learn from existing houses how to do it - technically it's not difficult)
+* More
