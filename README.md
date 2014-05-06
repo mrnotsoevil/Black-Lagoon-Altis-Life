@@ -105,6 +105,10 @@ Schema:
     logo:		eg. 'images\logo_user\bloodz.paa'
     levelnames:		Name for EACH LEVEL (including ZERO!!!) eg. '"["Kein Mitglied","Blood-Praktikant","Blood-Grünschnabel","Blood-Dealer","Blood-Hitman","Blood-Rechte Hand","Blood-CoLeader","Blood-Leader"]"'
 
+--- Perms/'Group' feature for cops ---
+
+You HAVE to set coplevel to 0 if you want to set coplevel by PERMS, because the database will ALWAYS override PERMS, because it's more secure.
+    
 --- GUIs Folder ---
 
 This folder is NOT important for the server. There are just files, created by the ARMA III GUI Editor. You may load them if you want to change a dialog.
