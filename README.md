@@ -92,6 +92,9 @@ The 'homes' table is pulled from our active running server, so you have to run f
 Disable safety features if necessary!
 
 
+!!! Check if you have only ONE pbo file in a folder! They will load BOTH and WILL create errors! !!!
+
+
 --- DYNPERMS ---
 
 DynPerms is an extension to Perms (Group Manager), allowing to add dynamically created groups by using the database (Normal perms are in the script).
