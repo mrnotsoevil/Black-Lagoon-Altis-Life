@@ -33,7 +33,8 @@ All thanks to Tonic, the original author of Altis Life RPG and our scripters and
 + ADAC/Mechanics faction, being able to ...
     + Impound vehicles using tows
     + Fully repairing vehicles
-    + Recoloring vehicles
+    + Recoloring vehicles (Consumes paint 'Farbeimer' - set the needed amount in vehicleColorsCentralized)
+	+ If a ADAC want to use donator/police/rebel colors, sb. have to give a 'Token' to enable colors
 + Permission system (Cops, ADAC, Event Manager) => Chief can set level of other cops without using database
 + DynPerms Permission System - Add groups by Database
 + 'Pack' weapons/colothing/... into boxes 
@@ -121,3 +122,12 @@ To implement by yourself:
 * Wanted 'Add' function (not working properly)
 * More houses (Learn from existing houses how to do it - technically it's not difficult)
 * More
+
+--- May I change file/picture/... xy? ---
+
+YES! It's the same license, Tonic used for his mod - you may change everything, add everything you want, ...
+BUT: Usually, you have to do everything yourself - We won't setup your server.
+
+--- I want feature xy. Can you add it? ---
+
+You may add it yourself.
