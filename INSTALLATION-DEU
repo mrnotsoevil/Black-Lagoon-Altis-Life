@@ -42,7 +42,7 @@ Angenommen: Nitrado
     Im ADDON-Ordner im life_server-Ordner die Init.sqf-Datei anpassen (siehe https://wiki.nitrado.net/de/Altis_Life) und dann in eine PBO packen. Die PBO-Datei kommt in den @life_server/addons Ordner (auch das ist im Wiki beschrieben)
     
     
-Keine Garantie für Bugfreiheit! Besucht uns doch einmal auf Black Lagoon, solange es den Server noch gibt.
+Keine Garantie für Bugfreiheit! Besucht uns doch einmal auf Black Lagoon IP 128.65.218.127:2302
 Hinweis: Ihr dürft ALLES ändern - genau so wie bei Tonics originalem Altis Life Server - Ihr braucht auch nichts fragen o.Ä.
 	
 	
