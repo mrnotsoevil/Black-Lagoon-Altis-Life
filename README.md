@@ -92,7 +92,7 @@ The 'homes' table is pulled from our active running server, so you have to run f
 Disable safety features if necessary!
 
 
-!!! Check if you have only ONE pbo file in a folder! They will load BOTH and WILL create errors! !!!
+!!! Check that there's only ONE pbo file per folder! They will load BOTH and WILL create errors! !!!
 
 
 --- DYNPERMS ---
