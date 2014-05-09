@@ -138,3 +138,8 @@ BUT: Usually, you have to do everything yourself - We won't setup your server.
 --- I want feature xy. Can you add it? ---
 
 You may add it yourself.
+
+--- Sniper license for cops ---
+
+A cop only can buy a sniper weapon if he has sniper license. You can only give this license by changing database entry.
+But you may implement an easier to use system, using PERMS - we didn't do this, because PERMS is a very new feature.
