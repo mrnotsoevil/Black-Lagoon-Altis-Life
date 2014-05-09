@@ -28,7 +28,7 @@ Angenommen: Nitrado
     
 	SQL-Befehl ausführen:
     
-	UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"'
+	UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"', ownename=' '
 	
 	
 	Hinweis: Eventuell meckern da ein paar Programme, da die für UPDATE-Aktionen eine ID brauchen. Bitte recherchieren oder von Hand machen :)
@@ -44,5 +44,7 @@ Angenommen: Nitrado
     
 Keine Garantie für Bugfreiheit! Besucht uns doch einmal auf Black Lagoon IP 128.65.218.127:2302
 Hinweis: Ihr dürft ALLES ändern - genau so wie bei Tonics originalem Altis Life Server - Ihr braucht auch nichts fragen o.Ä.
+
+Hinweis: Die Meldung ">PERMS< Unknown perms found ... looking for DYNPERMS" ist KEIN Fehler, sondern nur ein Hinweis!!!
 	
 	
