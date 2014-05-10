@@ -14,7 +14,7 @@ Check following link for a basic description by the original author: http://foru
 
 2. Acknowledge
 
-All thanks to Tonic, the original author of Altis Life RPG and our scripters and contributors, map makers Monstaub, Patricksday, Sysco, DrFootjobber, mrboese and many other people who worked hard to make a good and feature rich server.
+All thanks to Tonic, the original author of Altis Life RPG and our scripters and contributors, map makers Monstaub, Patricksday, Sysco, DrFootjobber, VauxhallHH¹, Padde¹, mrboese and many other people who worked hard to make a good and feature rich server.
 
 3. Features
 
@@ -143,3 +143,12 @@ You may add it yourself.
 
 A cop only can buy a sniper weapon if he has sniper license. You can only give this license by changing database entry.
 But you may implement an easier to use system, using PERMS - we didn't do this, because PERMS is a very new feature.
+
+
+
+
+
+
+
+
+¹ External contributors
