@@ -9,7 +9,7 @@ Angenommen: Nitrado
 
     Alle Tabellen in der Datenbank des Servers löschen (mit PHPMyAdmin oder MySQL Workbench, ...)
     
-2. SQL-Dateien einspielen
+2. SQL-Dateien (./DATABASE/*.sql) einspielen
 
     1.1 Zuerst den Datenbanknamen in ALLEN Sql-Dateien ÜBERALL abändern:
     
@@ -20,7 +20,7 @@ Angenommen: Nitrado
 	
     1.2 SQL-Dateien ausführen
     
-	Möglichkeit: Den ganzen Text in jeder Datei einfach kopieren, einfügen, ausführen
+	Die Dateien können in PHPMyAdmin oder einem anderen Datenbanktool importiert werden.
 	
 	Hinweis: Wenn du eine Datenbank benutzt, in der bereits Altis Life installiert war (haben die Routinen deleteDeadVehicles() und resetLifeVehicles()), dann brauchst du die main_altis_routines.sql-Datei nicht einspielen!
 	
@@ -35,9 +35,9 @@ Angenommen: Nitrado
 	
 3. PBOs einspielen
 
-    Alls von hier aus wie gehabt:
+    Alles von hier aus wie gehabt:
     
-    In dem MISSION-Ordner ist Altis_Life.Altis. In mpmissions reinkopieren oder in eine PBO packen (GUIs-Ordner nur für Scripter eventuell wichtig)
+    In dem MISSION-Ordner ist Altis_Life.Altis. In mpmissions reinkopieren oder in eine PBO packen (GUIs-Ordner nur für Scripter eventuell wichtig, sonst ignorieren)
     
     Im ADDON-Ordner im life_server-Ordner die Init.sqf-Datei anpassen (siehe https://wiki.nitrado.net/de/Altis_Life) und dann in eine PBO packen. Die PBO-Datei kommt in den @life_server/addons Ordner (auch das ist im Wiki beschrieben)
     
