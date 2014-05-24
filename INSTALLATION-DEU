@@ -13,9 +13,9 @@ Angenommen: Nitrado
 
     1.1 Zuerst den Datenbanknamen in ALLEN Sql-Dateien ÜBERALL abändern:
     
-	main_altis
+	main_altis -> Neuer Datenbankname
 	
-	z.B. main_altis ersetzten durch ni123456
+	z.B. main_altis ersetzen durch ni123456_db
 	
 	
     1.2 SQL-Dateien ausführen
