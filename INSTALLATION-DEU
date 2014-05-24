@@ -28,7 +28,7 @@ Angenommen: Nitrado
     
 	SQL-Befehl ausführen:
     
-	UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"', ownename=' '
+	UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"', ownername=' '
 	
 	
 	Hinweis: Eventuell meckern da ein paar Programme, da die für UPDATE-Aktionen eine ID brauchen. Bitte recherchieren oder von Hand machen :)
