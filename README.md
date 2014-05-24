@@ -87,7 +87,7 @@ Some misc features
 We are a german server, so everything is translated into german; but the code/script style is engish!
 The 'homes' table is pulled from our active running server, so you have to run following command, after importing the sql file:
 
-    UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"', ownename=' '
+    UPDATE homes SET owner=' ', owned='0', inventory='"[]"', inventory_weight='100', trustedpersons='"[]"', ownername=' '
 
 Disable safety features if necessary!
 
