@@ -2,406 +2,872 @@
 <Project name="Altis Life RPG">
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
-			<Original>Schließen</close>
+			<Original>Close</Original>
+			<German>Schließen</German>
+			<French>Fermer</French>
+			<Italian>Chiudi</Italian>
+			<Portuguese>Fechar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Sell">
-			<Original>Verkaufen</Original>
+			<Original>Sell</Original>
+			<German>Verkaufen</German>
+			<French>Vendre</French>
+			<Italian>Vendi</Italian>
+			<Portuguese>Vender</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Buy">
-			<Original>Kaufen</Original>
+			<Original>Buy</Original>
+			<German>Kaufen</German>
+			<French>Acheter</French>
+			<Italian>Compra</Italian>
+			<Portuguese>Comprar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Give">
-			<Original>Geben</Original>
+			<Original>Give</Original>
+			<German>Geben</German>
+			<French>Donner</French>
+			<Italian>Dai</Italian>
+			<Portuguese>Dar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Use">
-			<Original>Benutzen</Original>
+			<Original>Use</Original>
+			<German>Benutzen</German>
+			<French>Utiliser</French>
+			<Italian>Usa</Italian>
+			<Portuguese>Usar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Remove">
-			<Original>Entfernen</Original>
+			<Original>Remove</Original>
+			<German>Entfernen</German>
+			<French>Supprimer</French>
+			<Italian>Rimuovi</Italian>
+			<Portuguese>Remover</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Settings">
-			<Original>Einstellungen</Original>
+			<Original>Settings</Original>
+			<German>Einstellungen</German>
+			<French>Paramètres</French>
+			<Italian>Impostazioni</Italian>
+			<Portuguese>Configurar</Portuguese>
 		</Key>
 		<Key ID="STR_Global_BuyPerm">
 			<Original>Kaufen</Original>
+			<English>Buy Perm</English>
 		</Key>
 		<Key ID="STR_Global_NoSelection">
 			<Original>Du hast nichts ausgewählt.</Original>
+			<English>You haven't selected anything</English>
 		</Key>
 	</Package>
 	<Package name="Admin_Menu">
 		<Key ID="STR_Admin_Title">
-			<Original>Admin Menü</Original>
+			<Original>Admin Menu</Original>
+			<German>Admin Menü</German>
+			<Italian>Menu Admin</Italian>
+			<French>Menu Admin</French>
+			<Portuguese>Menu do Admin</Portuguese>
 		</Key>
 		<Key ID="STR_Admin_GetID">
-			<Original>ID abrufen</Original>
+			<Original>Get ID</Original>
+			<German>ID abfragen</German>
+			<French>Obtenir ID</French>
+			<Italian>Vedi ID</Italian>
+			<Portuguese>Menu do Admin</Portuguese>
 		</Key>
 	</Package>
 	<Package name="ATM_Menu">
-		<Key ID="STR_ATM_Title">
-			<Original>Bankaccount-Management</Original>
+	<Key ID="STR_ATM_Title">
+			<Original>Bank Account Management</Original>
+			<German>Bankkonto verwalten</German>
+			<French>Gestion du Compte Bancaire</French>
+			<Italian>Gestione Bancaria</Italian>
+			<Portuguese>Conta Bancária</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_Withdraw">
-			<Original>Abheben</Original>
+			<Original>Withdraw</Original>
+			<German>Abheben</German>
+			<French>Retirer</French>
+			<Italian>Preleva</Italian>
+			<Portuguese>Sacar</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_Deposit">
-			<Original>Einzahlen</Original>
+			<Original>Deposit</Original>
+			<German>Einzahlen</German>
+			<French>Déposer</French>
+			<Italian>Deposita</Italian>
+			<Portuguese>Depositar</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_Transfer">
-			<Original>Transferieren</Original>
+			<Original>Transfer</Original>
+			<German>Überweisen</German>
+			<French>Transférer</French>
+			<Italian>Trasferisci</Italian>
+			<Portuguese>Transferir</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Cell_Phone">
 		<Key ID="STR_CELL_Title">
-			<Original>Altis Mobile</Original>
+			<Original>City Mobile</Original>
+ 			<German>Altis Mobilfunk</German>
+			<French>Altis mobile</French>
+			<Italian>Cellulare Altis</Italian>
+			<Portuguese>Altis Mobile</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextToSend">
-			<Original>Nachricht:</Original>
+			<Original>Message To Send:</Original>
+			<German>Deine Nachricht:</German>
+			<French>SMS à Envoyer :</French>
+			<Italian>Messaggio da mandare:</Italian>
+			<Portuguese>Mensagem a enviar:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextMSGBtn">
-			<Original>Nachricht:</Original>
+			<Original>Text Message:</Original>
+			<German>Nachricht:</German>
+			<French>Text Message:</French>
+			<Italian>Msg Giocatore:</Italian>
+			<Portuguese>Mensagem:</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextPolice">
-			<Original>Polizei anschreiben</Original>
+			<Original>Text Police</Original>
+			<German>An die Polizei</German>
+			<French>Text Police</French>
+			<Italian>Msg Polizia</Italian>		
+			<Portuguese>Polícia</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_TextAdmins">
-			<Original>Admins anschreiben</Original>
+			<Original>Text Admins</Original>
+			<German>An die Admins</German>
+			<French>Text Admins</French>
+			<Italian>Msg Admin</Italian>
+			<Portuguese>Text Admin</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_AdminMsg">
 			<Original>Admin Message</Original>
+			<German>Admin-Nachricht</German>
+			<French>Admin Message</French>
+			<Italian>Admin Msg</Italian>
+			<Portuguese>Msg do Admin</Portuguese>
 		</Key>
 		<Key ID="STR_CELL_AdminMSGAll">
 			<Original>Admin Msg All</Original>
+			<German>Admin-Nachricht an alle</German>
+			<French>Admin Msg ALL</French>
+			<Italian>Admin Msg</Italian>			
+			<Portuguese>Admin Msg ALL</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Chop_Shop">
 		<Key ID="STR_ChopShop_Title">
-			<Original>Lokaler Chop Shop</Original>
+			<Original>Local Chop Shop</Original>
+			<German>Illegaler Fahrzeughändler</German>
+			<French>Concessionnaire de véhicule volé</French>
+			<Italian>Ricettatore</Italian>
+			<Portuguese>Oficina Local</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Gang_Menu">
 		<Key ID="STR_Gang_Title">
-			<Original>Gang-Verwaltung</Original>
+			<Original>Gang Management</Original>
+			<German>Gang Verwaltung</German>
+			<French>Gestion du Gang</French>
+			<Italian>Gestione Gang</Italian>
+			<Portuguese>Gerenciar Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Title2">
-			<Original>Gang-Verwaltung: Gangs</Original>
+			<Original>Gang Management - Current Gangs</Original>
+			<German>Gang Übersicht - Aktuelle Gangs</German>
+			<French>Gestion de Gangs - Liste des Gangs Actuels</French>
+			<Italian>Gestione Gang - Gang Attuali</Italian>
+			<Portuguese>Gerenciar Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Join">
-			<Original>Beitreten</Original>
+			<Original>Join</Original>
+			<German>Beitreten</German>
+			<French>Rejoindre</French>
+			<Italian>Unisciti</Italian>
+			<Portuguese>Entrar</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Leave">
-			<Original>Verlassen</Original>
+			<Original>Leave</Original>
+			<German>Verlassen</German>
+			<French>Quitter</French>
+			<Italian>Abbandona</Italian>
+			<Portuguese>Sair</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Lock">
 			<Original>Sperren</Original>
+			<English>Lock</English>
 		</Key>
 		<Key ID="STR_Gang_Unlock">
 			<Original>Entsperren</Original>
+			<English>Unlock</English>
 		</Key>
 		<Key ID="STR_Gang_Kick">
-			<Original>Herauswerfen</Original>
+			<Original>Kick</Original>
+			<German>Kicken</German>
+			<French>Virer</French>
+			<Italian>Espelli</Italian>
+			<Portuguese>Kick</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_SetLeader">
-			<Original>Als Anführer setzen</Original>
+			<Original>Set Leader</Original>
+			<German>Neuer Anführer</German>
+			<French>Passer Chef</French>
+			<Italian>Imposta Capo</Italian>
+			<Portuguese>Passar Liderança</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_PriceTxt">
-			<Original>Du benötigst $10,000, um eine Gang erstellen zu können.</Original>
+			<Original>To create a gang it costs $%1</Original>
+			<German>Eine Gang zu erstellen kostet $%1</German>
+			<French>Pour créer un gang ça coute %1$</French>
+			<Italian>Creare una gang costa €%1</Italian>
+			<Portuguese>Criar uma Gangue custa R$%1</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Create">
-			<Original>Erstellen</Original>
+			<Original>Create</Original>
+			<German>Erstellen</German>
+			<French>Créer</French>
+			<Italian>Crea</Italian>
+			<Portuguese>Criar</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_YGN">
-			<Original>Gang-Name</Original>
+			<Original>Your Gang Name</Original>
+			<German>Dein Gang Name</German>
+			<French>Nom de ton Gang</French>
+			<Italian>Nome della tua Gang</Italian>
+			<Portuguese>Nome da Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_MainMenu">
-			<Original>Du bist gerade in keiner Gang. Was willst du tun?</Original>
+			<Original>You aren't in a gang currently, what do you want to do?</Original>
+			<German>Du bist in keiner Gang, was möchtest du machen?</German>
+			<French>Tu n'as pas de gang actuellement</French>
+			<Italian>Non sei in una gang, cosa intendi fare?</Italian>
+			<Portuguese>Você não está em uma Gangue, o que deseja fazer?</Portuguese>
 		</Key>
 		<Key ID="STR_Gang_Browse">
-			<Original>Durchsuchen</Original>
+			<Original>Browse</Original>
+			<German>Durchsuchen</German>
+			<French>Parcourir</French>
+			<Italian>Cerca</Italian>
+			<Portuguese>Browse</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Garage_Menu">
 		<Key ID="STR_Garage_Title">
-			<Original>Garage</Original>
+			<Original>Vehicle Garage</Original>
+			<German>Fahrzeug Garage</German>
+			<French>Garage Vehicule</French>
+			<Italian>Garage Veicoli</Italian>			
+			<Portuguese>Garagem de Veículos</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_GetVehicle">
-			<Original>Ausparken</Original>
+			<Original>Get Vehicle</Original>
+			<German>Ausparken</German>	
+			<French>Récupérer</French>
+			<Italian>Ritira Veicolo</Italian>
+			<Portuguese>Pegar Veiculo</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_SellVehicle">
-			<Original>Verkaufen</Original>
+			<Original>Sell Vehicle</Original>
+			<German>Fahrzeug verkaufen</German>
+			<French>Vendre</French>
+			<Italian>Vendi Veicolo</Italian>
+			<Portuguese>Vender Veiculo</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_SellPrice">
-			<Original>Verkaufspreis</Original>
+			<Original>Sell Price</Original>
+			<German>Verkaufspreis</German>
+			<French>Prix de vente</French>
+			<Italian>Prezzo di vendita</Italian>
+			<Portuguese>Preço de Venda</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_SFee">
-			<Original>Mietpreis</Original>
+			<Original>Storage Fee</Original>
+			<German>Lagergebühr</German>
+			<French>Frais de Stockage</French>
+			<Italian>Costo ritiro</Italian>
+			<Portuguese>Taxa de Armazenamento</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_NoVehicles">
-			<Original>Keine Fahrzeuge</Original>
+			<Original>No vehicles found in garage.</Original>
+			<German>Keine Fahrzeuge in der Garage gefunden.</German>
+			<French>Aucuns Vehicules.</French>	
+			<Italian>Non hai veicoli nel Garage.</Italian>			
+			<Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_GoodConnection">
 			<Original>Verbindung OK</Original>
-		</Key>
+			<English>Good Connection</English>
 		<Key ID="STR_Garage_CashError">
-			<Original>Du hast keine $%1 in deinem Bankaccount.</Original>
+			<Original>You don't have $%1 in your bank account</Original>
+			<German>Du hast keine $%1 auf deinem Bankkonto</German>
+			<French>Tu n'as pas %1$ sur ton compte en banque.</French>
+			<Italian>Non hai €%1 nel tuo conto in banca</Italian>
+			<Portuguese>Você não tem R$%1 na sua conta bancária</Portuguese>
 		</Key>
 		<Key ID="STR_Garage_SpawningVeh">
-			<Original>Parke Fahrzeug aus, bitte warten ...</Original>
+			<Original>Spawning vehicle please wait...</Original>
+			<German>Fahrzeug wird bereitgestellt, bitte warten...</German>
+			<French>Mise en place du Véhicule, merci de patienter...</French>
+			<Italian>Creazione veicolo attendere...</Italian>
+			<Portuguese>Obtendo veiculo, aguarde por favor...</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Key_Chain">
 		<Key ID="STR_Keys_Title">
-			<Original>Schlüsselbund</Original>
+			<Original>Key Chain - Current List of Keys</Original>
+			<German>Schlüsselbund - Aktuelle Liste</German>
+			<French>Porte-clés - Liste actuelle des clés</French>
+			<Italian>Portachiavi - Lista delle Chiavi</Italian>
+			<Portuguese>Chaves</Portuguese>
 		</Key>
 		<Key ID="STR_Keys_DropKey">
-			<Original>Schlüssel hinwerfen</Original>
+			<Original>Drop Key</Original>
+			<German>Schlüssel wegwerfen</German>
+			<French>Jeter Clef</French>
+			<Italian>Abbandona Chiave</Italian>
+			<Portuguese>Remover Chave</Portuguese>
 		</Key>
 		<Key ID="STR_Keys_GiveKey">
-			<Original>Schlüssel geben</Original>
+			<Original>Give Key</Original>
+			<German>Schlüssel geben</German>
+			<French>Donner Clef</French>
+			<Italian>Dai Chiave</Italian>
+			<Portuguese>Dar Chave</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Player_Menu">
 		<Key ID="STR_PM_Title">
-			<Original>Spielermenü</Original>
+			<Original>Player Menu</Original>
+			<German>Spieler Menü</German>
+			<French>Menu du Joueur</French>
+			<Italian>Menu Giocatore</Italian>
+			<Portuguese>Menu do Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_PM_cItems">
-			<Original>Gegenstände</Original>
+			<Original>Current Items</Original>
+			<German>aktuelle Items</German>
+			<French>Objets Actuels</French>
+			<Italian>Oggetti Attuali</Italian>
+			<Portuguese>Items Atuais</Portuguese>
 		</Key>
 		<Key ID="STR_PM_Licenses">
-			<Original>Lizenzen und Fähigkeiten</Original>
+			<Original>Licenses</Original>
+			<German>Lizenzen</German>
+			<French>Licences</French>
+			<Italian>Licenze</Italian>
+			<Portuguese>Licenças</Portuguese>
 		</Key>
 		<Key ID="STR_PM_MoneyStats">
-			<Original>Finanzen</Original>
+			<Original>Money Stats</Original>
+			<German>Geld Statistiken</German>
+			<French>Stats Monétaires</French>
+			<Italian>Statistiche Fondi</Italian>
+			<Portuguese>Dinheiro</Portuguese>
 		</Key>
 		<Key ID="STR_PM_MyGang">
-			<Original>Meine Gang</Original>
+			<Original>My Gang</Original>
+			<German>Meine Gang</German>
+			<French>Mon Gang</French>
+			<Italian>Mia Gang</Italian>
+			<Portuguese>Gangue</Portuguese>
 		</Key>
 		<Key ID="STR_PM_WantedList">
-			<Original>Wanted Liste</Original>
+			<Original>Wanted List</Original>
+			<German>Fahndungsliste</German>
+			<French>Interpol</French>
+			<Italian>Lista Ricercati</Italian>
+			<Portuguese>Lista de Foragidos</Portuguese>
 		</Key>
 		<Key ID="STR_PM_CellPhone">
-			<Original>Handy</Original>
+			<Original>Cell Phone</Original>
+			<German>Telefon</German>
+			<French>Téléphone</French>
+			<Italian>Cellulare</Italian>
+			<Portuguese>Celular</Portuguese>
 		</Key>
 		<Key ID="STR_PM_KeyChain">
-			<Original>Schlüsselbund</Original>
+			<Original>Key Chain</Original>
+			<German>Schlüsselbund</German>
+			<French>Porte-clés</French>
+			<Italian>Portachiavi</Italian>
+			<Portuguese>Chaves</Portuguese>
 		</Key>
 		<Key ID="STR_PM_AdminMenu">
-			<Original>Admin Menü</Original>
+			<Original>Admin Menu</Original>
+			<German>Admin Menü</German>
+			<French>Menu Admin</French>
+			<Italian>Menu Admin</Italian>
+			<Portuguese>Admin Menu</Portuguese>
 		</Key>
 		<Key ID="STR_PM_SyncData">
-			<Original>Synchronisieren</Original>
+			<Original>Sync Data</Original>
+			<German>Daten speichern</German>
+			<French>Sync Data</French>
+			<Italian>Salva Dati</Italian>
+			<Portuguese>Sincronizar Dados</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Settings_Menu">
 		<Key ID="STR_SM_Title">
-			<Original>Einstellungen</Original>
+			<Original>Settings Menu</Original>
+			<German>Einstellungen</German>
+			<French>Menu Paramètres</French>
+			<Italian>Menu Impostazioni</Italian>
+			<Portuguese>Menu de Configuração</Portuguese>
 		</Key>
 		<Key ID="STR_SM_onFoot">
-			<Original>Zu Fuß:</Original>
+			<Original>On Foot:</Original>
+			<German>Zu Fuß:</German>
+			<French>A Pied:</French>
+			<Italian>A piedi:</Italian>
+			<Portuguese>A Pé:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inCar">
-			<Original>Im Auto:</Original>
+			<Original>In Car:</Original>
+			<German>Im Auto:</German>
+			<French>Terre:</French>
+			<Italian>Auto:</Italian>
+			<Portuguese>No Carro:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_inAir">
-			<Original>Im Flugzeug/Heli:</Original>
+			<Original>In Air:</Original>
+			<German>In der Luft:</German>
+			<French>Air:</French>
+			<Italian>Aria:</Italian>
+			<Portuguese>No Ar:</Portuguese>
 		</Key>
 		<Key ID="STR_SM_ToolTip1">
-			<Original>Sichtweite zu Fuß</Original>
+			<Original>View distance while on foot</Original>
+			<German>Sichtweite zu Fuß</German>
+			<French>Distance de vue à pied</French>
+			<Italian>Distanza visiva a piedi</Italian>
+			<Portuguese>Vizualizar distância quando a pé</Portuguese>
 		</Key>
 		<Key ID="STR_SM_ToolTip2">
-			<Original>Sichtweite wenn im Auto</Original>
+			<Original>View distance while in a land vehicle</Original>
+			<German>Sichtweite in Fahrzeugen</German>
+			<French>Distance de vue en voiture</French>
+			<Italian>Distanza visiva su veicolo di terra</Italian>
+			<Portuguese>Visualizar distância quando em veúclos terrestres</Portuguese>
 		</Key>
 		<Key ID="STR_SM_ToolTip3">
-			<Original>Sichtweite wenn im Flugzeug oder Helikopter</Original>
+			<Original>View distance while in a air vehicle</Original>
+			<German>Sichtweite in Helikoptern</German>
+			<French>Distance de vue dans les airs</French>
+			<Italian>Distanza visiva su velivolo</Italian>
+			<Portuguese>Vizualisar distância quando em veículos aéreos</Portuguese>
 		</Key>
 		<Key ID="STR_SM_PlayerTags">
-			<Original>Spielernamen</Original>
+			<Original>Player Tags</Original>
+			<German>Spielernamen</German>
+			<French>Tags Joueurs</French>
+			<Italian>Tag Giocatore</Italian>			
+			<Portuguese>Tags de Jogadores</Portuguese>
 		</Key>
 		<Key ID="STR_SM_TagsON">
-			<Original>Spielernamen AN</Original>
+			<Original>Tags ON</Original>
+			<German>Namen AN</German>
+			<French>Tags ON</French>
+			<Italian>Tags ON</Italian>
+			<Portuguese>Tags ON</Portuguese>
 		</Key>
 		<Key ID="STR_SM_TagsOFF">
-			<Original>Spielernamen AUS</Original>
+			<Original>Tags OFF</Original>
+			<German>Namen AUS</German>
+			<French>Tags OFF</French>
+			<Italian>Tags OFF</Italian>
+			<Portuguese>Tags OFF</Portuguese>
 		</Key>
 		<Key ID="STR_SM_SC">
-			<Original>Sidechat-Einstellungen</Original>
+			<Original>Sidechat Settings</Original>
+			<German>Sidechat Einstellungen</German>
+			<French>Sidechat Paramètres</French>
+			<Italian>Impostazioni chat fazione</Italian>
+			<Portuguese>Configurações de Sidechat</Portuguese>
 		</Key>
 		<Key ID="STR_SM_SCOFF">
-			<Original>Sidechat AUS</Original>
+			<Original>Sidechat OFF</Original>
+			<German>Sidechat AUS</German>
+			<French>Sidechat OFF</French>
+			<Italian>Chat fazione OFF</Italian>
+			<Portuguese>Sidechat OFF</Portuguese>
 		</Key>
 		<Key ID="STR_SM_SCON">
-			<Original>Sidechat AN</Original>
+			<Original>Sidechat ON</Original>
+			<German>Sidechat AN</German>
+			<French>Sidechat ON</French>	
+			<Italian>Chat fazione ON</Italian>			
+			<Portuguese>Sidechat ON</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Virt_Shop">
 		<Key ID="STR_VS_SI">
-			<Original>Laden</Original>
+			<Original>Shop Inventory</Original>
+			<German>Ladeninventar</German>
+			<French>Boutique</French>
+			<Italian>Inventario Negozio</Italian>
+			<Portuguese>Loja</Portuguese>
 		</Key>
 		<Key ID="STR_VS_PI">
-			<Original>Dein Inventar</Original>
+			<Original>Your Inventory</Original>
+			<German>Eigenes Inventar</German>
+			<French>Ton Inventaire</French>
+			<Italian>Inventario Personale</Italian>	
+			<Portuguese>Seu Inventário</Portuguese>
 		</Key>
 		<Key ID="STR_VS_BuyItem">
-			<Original>Kaufen</Original>
+			<Original>Buy Item</Original>
+			<German>Kaufen</German>
+			<French>Acheter Objet</French>
+			<Italian>Compra Oggetto</Italian>
+			<Portuguese>Comprar Item</Portuguese>
 		</Key>
 		<Key ID="STR_VS_SellItem">
-			<Original>Verkaufen</Original>
+			<Original>Sell Item</Original>
+			<German>Verkaufen</German>
+			<French>Vendre Objet</French>
+			<Italian>Vendi Oggetto</Italian>
+			<Portuguese>Vender Item</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Spawn_Menu">
 		<Key ID="STR_Spawn_Title">
-			<Original>Spawnpunkt auswählen</Original>
+			<Original>Spawn Selection</Original>
+			<German>Spawn Auswahl</German>
+			<French>Selection du Spawn</French>
+			<Italian>Selezione Spawn</Italian>
+			<Portuguese>Locais para Começar</Portuguese>
 		</Key>
 		<Key ID="STR_Spawn_Spawn">
 			<Original>Spawn</Original>
+			<German>Spawnen</German>
+			<French>Spawn</French>
+			<Italian>Spawn</Italian>
+			<Portuguese>Começar...</Portuguese>
 		</Key>
 		<Key ID="STR_Spawn_CSP">
-			<Original>Ausgewählter Spawnpunkt</Original>
+			<Original>Current Spawn Point</Original>
+			<German>Aktueller Spawnpunkt</German>
+			<French>Point de Spawn Actuel</French>
+			<Italian>Punto di Spawn corrente</Italian>
+			<Portuguese>Ponto de spawn Atual</Portuguese>
 		</Key>
 		<Key ID="STR_Spawn_Spawned">
-			<Original>Du wurdest hier gespawnt: </Original>
+			<Original>You have spawned at</Original>
+			<German>Du bist gespawnt in</German>
+			<French>Tu as spawn à</French>
+			<Italian>Ti trovi a</Italian>
+			<Portuguese>Você irá começar em</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Ticket_Menu">
 		<Key ID="STR_Ticket_GiveTicket">
-			<Original>Strafzettel schreiben</Original>
+			<Original>Give Ticket</Original>
+			<German>Ticket geben</German>
+			<French>Verbaliser</French>
+			<Italian>Dai Multa</Italian>
+			<Portuguese>Dar Multa</Portuguese>
 		</Key>
 		<Key ID="STR_Ticket_PayTicket">
-			<Original>Bezahlen</Original>
+			<Original>Pay Ticket</Original>
+			<German>Ticket bezahlen</German>
+			<French>Payer l'amende</French>
+			<Italian>Paga Multa</Italian>
+			<Portuguese>Pagar Multa</Portuguese>
 		</Key>
 		<Key ID="STR_Ticket_RefuseTicket">
-			<Original>Zurückweisen</Original>
+			<Original>Refuse Ticket</Original>
+			<German>Ticket ablehnen</German>
+			<French>Contester l'amende</French>
+			<Italian>Rifiuta Multa</Italian>
+			<Portuguese>Recusar Multa</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Trunk_Menu">
 		<Key ID="STR_Trunk_TInventory">
-			<Original>Kofferraum</Original>
+			<Original>Trunk Inventory</Original>
+			<German>Kofferraum</German>
+			<French>Coffre</French>
+			<Italian>Inventario Veicolo</Italian>
+			<Portuguese>Inventário do Caminhão</Portuguese>
 		</Key>
 		<Key ID="STR_Trunk_PInventory">
-			<Original>Inventar</Original>
+			<Original>Player Inventory</Original>
+			<German>Spielerinventar</German>
+			<French>Inventaire Joueur</French>
+			<Italian>Inventario Giocatore</Italian>
+			<Portuguese>Inventário do Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_Trunk_Take">
-			<Original>Nehmen</Original>
+			<Original>Take</Original>
+			<German>Nehmen</German>
+			<French>Récupérer</French>
+			<Italian>Prendi</Italian>		
+			<Portuguese>Pegar</Portuguese>
 		</Key>
 		<Key ID="STR_Trunk_Store">
-			<Original>Verstauen</Original>
+			<Original>Store</Original>
+			<German>Lagern</German>
+			<French>Déposer</French>
+			<Italian>Deposita</Italian>
+			<Portuguese>Loja</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Wanted_Menu">
 		<Key ID="STR_Wanted_Title">
 			<Original>APD Wanted List</Original>
+			<German>Fahndungsliste</German>
+			<French>Interpol</French>
+			<Italian>Lista Ricercati</Italian>
+			<Portuguese>Lista de Procurados ADP</Portuguese>
 		</Key>
 		<Key ID="STR_Wanted_Pardon">
 			<Original>Pardon</Original>
+			<German>Erlassen</German>
+			<French>Excuser</French>
+			<Italian>Perdona</Italian>
+			<Portuguese>Perdão</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Animals">
 		<Key ID="STR_ANIM_Salema">
 			<Original>Salema</Original>
+			<German>Salema</German>
+			<French>Saumon</French>
+			<Italian>Salmone</Italian>
+			<Portuguese>Salema</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Ornate">
 			<Original>Ornate</Original>
+			<German>Ornate</German>
+			<French>Ornate</French>
+			<Italian>Orata</Italian>			
+			<Portuguese>Ornamentado</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Mackerel">
 			<Original>Mackerel</Original>
+			<German>Makrele</German>
+			<French>Maquereau</French>
+			<Italian>Sgombro</Italian>
+			<Portuguese>Cavalinha</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Tuna">
-			<Original>Thunfisch</Original>
+			<Original>Tuna</Original>
+			<German>Thunfisch</German>
+			<French>Thon</French>
+			<Italian>Tonno</Italian>
+			<Portuguese>Atum</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Mullet">
 			<Original>Mullet</Original>
+			<German>Barbe</German>
+			<French>Mulet</French>
+			<Italian>Triglia</Italian>
+			<Portuguese>Tainha</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Catshark">
-			<Original>Katzenhai</Original>
+			<Original>Cat Shark</Original>
+			<German>Katzenhai</German>
+			<French>Poisson Chat</French>
+			<Italian>Squalo</Italian>
+			<Portuguese>Tubarão Gato</Portuguese>
 		</Key>
 		<Key ID="STR_ANIM_Rabbit">
-			<Original>Hase</Original>
+			<Original>Rabbit</Original>
+			<German>Hase</German>
+			<French>Lapin</French>
+			<Italian>Coniglio</Italian>
+			<Portuguese>Coelho</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Notifications">
 		<Key ID="STR_NOTF_NE_1">
-			<Original>Du hast nicht die benötigten $%1 für ein %2</Original>
+			<Original>You do not have $%1 for a %2</Original>
+			<German>Du hast keine $%1 für einen %2</German>
+			<French>Tu n'as pas %1$ pour cet élément : %2</French>
+			<Italian>Non hai €%1 per $2</Italian>
+			<Portuguese>Você não tem R$%1 para %2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_B_1">
-			<Original>Du hast ein %1 für $%2 gekauft</Original>
+			<Original>You bought a %1 for $%2</Original>
+			<German>Du hast einen %1 für $%2 gekauft</German>
+			<French>Tu as acheté cet élément : %1 pour %2$</French>
+			<Italian>Hai comprato un %1 per €%2</Italian>		
+			<Portuguese>Você comprou %1 por R$%2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Arrested_1">
-			<Original>%1 wurde vom %2 festgenommen</Original>
+			<Original>%1 was arrested by %2</Original>
+			<German>%1 wurde von %2 verhaftet</German>
+			<French>%1 a été arrêté par %2</French>
+			<Italian>%1 è stato arrestato da %2</Italian>
+			<Portuguese>%1 foi preso por %2</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Fishing">
-			<Original>Du hast einen %1 gefangen</Original>
+			<Original>You caught a %1</Original>
+			<German>Du hast einen %1 gefangen</German>
+			<French>Tu as attrapé un(e) %1</French>
+			<Italian>Hai pescato %1</Italian>
+			<Portuguese>Você pegou %1</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_CaughtTurtle">
-			<Original>Du hast etwas Schildkrötenfleisch bekommen</Original>
+			<Original>You have taken some turtle meat</Original>
+			<German>Du hast etwas Schildkrötenfleisch bekommen</German>
+			<French>Tu as récupéré un peu de viande de tortue</French>
+			<Italian>Hai raccolto della carne di tartaruga</Italian>
+			<Portuguese>Você pegou carne de tartaruga</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Earned_1">
-			<Original>Du hast $%1 verdient</Original>
+			<Original>You have earned $%1</Original>
+			<German>Du hast $%1 verdient</German>
+			<French>Tu as gagné %1$</French>
+			<Italian>Hai guadagnato €%1</Italian>
+			<Portuguese>Você ganhou R$%1</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_NetDrop">
-			<Original>Werfe Fischernetz aus ...</Original>
+			<Original>Dropping fishing net...</Original>
+			<German>Fischernetz auswerfen...</German>
+			<French>Déploiement du filet de pêche....</French>
+			<Italian>Posizionando la rete da pesca...</Italian>
+			<Portuguese>Jogando rede de pesca...</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_NetDropFail">
-			<Original>Kein Fisch gefangen ...</Original>
+			<Original>Didn't catch any fish...</Original>
+			<German>Keinen Fisch gefangen...</German>
+			<French>Tu n'as réussi à attraper aucun poisson...</French>
+			<Italian>Non hai pescato nulla...</Italian>
+			<Portuguese>A rede voltou fazia...</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_NetUp">
-			<Original>Fischernetz eingeholt.</Original>
+			<Original>Fishing net pulled up.</Original>
+			<German>Fischernetz einholen.</German>
+			<French>Le filet de pêche a été entièrement relevé.</French>
+			<Italian>Rete da pesca recuperata.</Italian>
+			<Portuguese>A rede de pesca foi recolhida</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_InvFull">
-			<Original>Kein Inventarplatz mehr.</Original>
+			<Original>Your inventory space is full.</Original>
+			<German>Dein Inventar ist voll.</German>
+			<French>Tu n'as plus de place dans ton inventaire.</French>
+			<Italian>Il tuo inventario è pieno.</Italian>
+			<Portuguese>Seu inventário está cheio</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Gathering">
-			<Original>Sammle %1 ...</Original>
+			<Original>Gathering %1...</Original>
+			<German>Sammle %1...</German>
+			<French>Ramassage %1...</French>
+			<Italian>Raccogliendo %1</Italian>
+			<Portuguese>Coletando %1...</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Player_Interaction">
+		<Package name="Player_Interaction">
 		<Key ID="STR_pInAct_Title">
-			<Original>- Spieler -</Original>
+			<Original>Player Interaction Menu</Original>
+			<German>Spielerinteraktionsmenü</German>
+			<French>Menu Interaction du Joueur</French>
+			<Italian>Menu d'interazione Giocatore</Italian>
+			<Portuguese>Menu de Interação do Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_PutInCar">
-			<Original>In Fahrzeug setzen</Original>
+			<Original>Put in vehicle</Original>
+			<German>Ins Fahrzeug setzen</German>
+			<French>Embarquer</French>
+			<Italian>Metti nel Veicolo</Italian>
+			<Portuguese>Colocar no Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Unrestrain">
-			<Original>Entfesseln</Original>
+			<Original>Un-Restrain</Original>
+			<German>Freilassen</German>
+			<French>Démenotter</French>
+			<Italian>Togli Manette</Italian>
+			<Portuguese>Soltar</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_checkLicenses">
-			<Original>Lizenzen überprüfen</Original>
+			<Original>Check Licenses</Original>
+			<German>Lizenzen überprüfen</German>
+			<French>Vérifier Licences</French>
+			<Italian>Controlla Licenze</Italian>
+			<Portuguese>Verificar Licenças</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_SearchPlayer">
-			<Original>Spieler durchsuchen</Original>
+			<Original>Search Player</Original>
+			<German>Spieler durchsuchen</German>
+			<French>Fouiller Joueur</French>
+			<Italian>Ricerca Giocatore</Italian>
+			<Portuguese>Buscar por Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_StopEscort">
-			<Original>Abführen abbrechen</Original>
+			<Original>Stop Escorting</Original>
+			<German>Eskortieren stoppen</German>
+			<French>Arrêter Escorte</French>
+			<Italian>Ferma Scorta</Italian>
+			<Portuguese>Parar de Escoltar</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Escort">
-			<Original>Abführen</Original>
+			<Original>Escort Player</Original>
+			<German>Spieler eskortieren</German>
+			<French>Escorter Joueur</French>
+			<Italian>Scorta Giocatore</Italian>
+			<Portuguese>Escoltar Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_TicketBtn">
-			<Original>Strafzettel schreiben</Original>
+			<Original>Ticket Player</Original>
+			<German>Strafzettel ausstellen</German>
+			<French>Amende Joueur</French>
+			<Italian>Multa Giocatore</Italian>
+			<Portuguese>Multar Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Arrest">
-			<Original>Ins Gefängnis schicken</Original>
+			<Original>Send to jail</Original>
+			<German>Ins Gefängnis stecken</German>
+			<French>Envoyer en prison</French>
+			<Italian>Arresta</Italian>
+			<Portuguese>Enviar p/ Prisão</Portuguese>
 		</Key>
 	</Package>
 	<Package name="Vehicle_Interaction">
 		<Key ID="STR_vInAct_Title">
-			<Original>- Fahrzeug -</Original>
+			<Original>Vehicle Interaction Menu</Original>
+			<German>Fahrzeuginteraktionsmenü</German>
+			<French>Menu Interaction Véhicule</French>
+			<Italian>Menu d'interazione Veicolo</Italian>
+			<Portuguese>Menu de Interação do Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Repair">
-			<Original>Reparieren</Original>
+			<Original>Repair Vehicle</Original>
+			<German>Fahrzeug reparieren</German>
+			<French>Réparer Véhicule</French>
+			<Italian>Ripara Veicolo</Italian>
+			<Portuguese>Concertar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Registration">
-			<Original>Untersuchen</Original>
+			<Original>Registration</Original>
+			<German>Eigentümer</German>
+			<French>Enregistrement</French>
+			<Italian>Registrazione</Italian>
+			<Portuguese>Licenças</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_SearchVehicle">
-			<Original>Fahrzeug durchsuchen</Original>
+			<Original>Search Vehicle</Original>
+			<German>Fahrzeug durchsuchen</German>
+			<French>Fouiller Véhicule</French>
+			<Italian>Cerca Veicolo</Italian>
+			<Portuguese>Vasculhar Veículo</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_PullOut">
-			<Original>Spieler herausziehen</Original>
+			<Original>Pullout Players</Original>
+			<German>Aus Fahrzeug ziehen</German>
+			<French>Sortir Personnes</French>
+			<Italian>Estrai Giocatore</Italian>
+			<Portuguese>Retirar Jogadores</Portuguese>
 		</Key>
 		<Key ID="STR_vInAct_Impound">
-			<Original>Beschlagnahmen</Original>
-		</Key>
-		<Key ID="STR_vInAct_putToGarage">
-			<Original>Abschleppen lassen</Original>
+			<Original>Impound Vehicle</Original>
+			<German>Fahrzeug beschlagnahmen</German>
+			<French>Mise en fourrière</French>
+			<Italian>Sequestra Veicolo</Italian>
+			<Portuguese>Apreender Veículo</Portuguese>
 		</Key>
 	</Package>
 </Project>
